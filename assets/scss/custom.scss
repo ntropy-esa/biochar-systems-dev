@@ -1,0 +1,102 @@
+// Put custom SCSS rules in this file
+// Documentation: https://sass-lang.com/documentation
+
+
+//SCSS rules for section-dark and section-light theme in layouts of module pages
+.section-light {
+  background-color: white;
+}
+.section-light h1, .section-light h2, .section-light h3, .section-light p .section-light div, .section-light a:not(.btn-default){
+  color: rgb(10, 6, 6);
+}
+.section-dark {
+  background-color: rgba(69, 78, 78, 0.795);
+}
+.section-dark h1, .section-dark h2, .section-dark h3, .section-dark p, .section-dark div, .section-dark a:not(.btn-default){
+  color: white;
+}
+
+// SCSS rules for SHORTCODE fontawesome.html
+.inline-svg {
+    display: inline-block;
+    height: 1.15rem;
+    width: 1.15rem;
+    top: 0.15rem;
+    position: relative;
+  }
+
+// SCSS rules for SHORTCODE expand-css.html
+/*  Functionality */
+.accordion > input[type="checkbox"] {
+  position: absolute;
+  left: -100vw;
+}
+.accordion .content {
+  overflow-y: hidden;
+  height: 0;
+  transition: height 0.3s ease;
+}
+.accordion > input[type="checkbox"]:checked ~ .content {
+  height: auto;
+  overflow: visible;
+}
+.accordion label {
+  display: block;
+}
+/*  Styling */
+.accordion {
+  margin-bottom: 0.5em;
+}
+.accordion > input[type="checkbox"]:checked ~ .content {
+  padding: 5px;
+  border: 1px solid #e8e8e8;
+  border-top: 0;
+  border-right: 0;
+}
+.accordion .handle {
+  margin: 0;
+  font-size: 1.125em;
+  line-height: 1.0em;
+}
+.accordion label {
+  color: #333;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 5px;
+  // background: #e8e8e8;
+}
+.accordion label:hover,
+.accordion label:focus {
+  // background: #d8d8d8;
+}
+.accordion .handle label:before { // https://yoksel.github.io/url-encoder/
+  font-family: 'fontawesome';
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath d='M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z'/%3E%3C/svg%3E");
+  display: inline-block;
+  margin-right: 10px;
+  font-size: .58em;
+  line-height: 1.556em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  height: 1.556em;
+  width: 1.556em;
+}
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  height: 1.556em;
+  width: 1.556em;
+}
+// END OF SCSS rules for SHORTCODE expand-css.html
+
+// SCSS rules for SHORTCODE tooltip_glossary.html
+.glossary-tooltip {
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  color: black;
+  text-decoration: none !important;
+}
+
+
