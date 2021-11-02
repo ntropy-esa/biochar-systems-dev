@@ -4,7 +4,7 @@ description: "
 *What was our motivation?*
 
 
-Stockholm has a large district heating network to provide thermal comfort during winter times. Over the past decades, the fuel mix of the heating network was heavily decarbonised, moving away from coal and oil to favor biomass, large-scale heat pumps, and waste. What could be the next step for further reducing the climate change impact of Stockholms's energy system? Is it climate-suitable to invest in a large-scale biochar plant or should we invest in conventional bioenergy technologies? That was the context our this case study, performed in 2017-2019." # a text describing the motivations, the context, the research questions, attratively
+Stockholm has a large district heating network to provide thermal comfort during winter times. Over the past decades, the fuel mix of the heating network was heavily decarbonised, moving away from coal and oil to favor biomass, large-scale heat pumps, and waste. What could be the next step for further reducing the climate change impact of Stockholms's energy system? Is it climate-suitable to invest in a large-scale biochar plant or should we invest in conventional bioenergy technologies? That was the context of this case study, performed in 2017-2019." # a text describing the motivations, the context, the research questions, attratively
 draft: false
 image : "/case-studies/1-stockholm-art.PNG"
 weight : 2
