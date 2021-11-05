@@ -58,7 +58,8 @@ ordered = false
 [params]
 	favicon = "img/favicon.png"
 	logo = "img/logo.png"
-	logo_width = "150px"
+	logo_sidetext = "Biochar Systems<br/>Research Group"
+	logo_width = "50px"
 	# OpenGraph / Twitter Card metadata
 	description = "This is meta description"
 	author = "Themefisher"
@@ -73,7 +74,7 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 ################################# Contact page ################################
 [params.contact]
 # Address block
-phone = "0124857985320"
+phone = "0700193988"
 email = "demo@email.com"
 location = """
 **Themefisher**  
@@ -84,9 +85,9 @@ Australia
 # Whether to display text descriptors (like "E-mail: ", "Phone: ") before the address block elements
 address_descriptors = false
 [params.contact.form]
-enable = true
+enable = false
 # Whether to use [Netlify Forms](https://docs.netlify.com/forms/setup/)
-use_netlify = true
+use_netlify = false
 # Form action
 ## Fill in your Form ID URL for Formspree.io, e.g. `https://formspree.io/f/{form_id}`
 ## Ignored if `use_netlify = true` (custom [success page](https://docs.netlify.com/forms/setup/#success-messages) is already included) 
@@ -112,7 +113,7 @@ preloader = "" # use .png , .svg or .gif image
 
 ################################# Cookies #####################################
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 
 

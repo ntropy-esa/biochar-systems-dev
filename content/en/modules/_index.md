@@ -24,6 +24,7 @@ portfolio:
 ---
 
 {{< svg src="img/flowchart.svg" >}}
+
 ## **An interactive flowchart** 
 The flowchart above describes a biochar system, starting with the <mark>production of biomass</mark> and finishing with the <mark>end-of-life of the biochar product</mark>. Outside of the boundaries, a <mark>reference system</mark> is depicted. 
 
