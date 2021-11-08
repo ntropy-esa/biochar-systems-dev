@@ -1,5 +1,5 @@
 ---
-title: "Prospective life cycle assessment of large-scale biochar production and use for negative emissions in Stockholm"
+title: "Stockholm - Prospective life cycle assessment of large-scale biochar production and use on dairy farms"
 description: "
 *What was our motivation?*
 
@@ -9,7 +9,7 @@ draft: false
 image : "/case-studies/1-stockholm-art.PNG"
 weight : 2
 bg_image: ""
-category: [ "Sweden", "LCA" ]
+category: [ "Sweden", "LCA", "Stockholm", "District heating", "Manure & Feed additive", "Arable land"]
 menu:
   main:
     parent: "Case studies"

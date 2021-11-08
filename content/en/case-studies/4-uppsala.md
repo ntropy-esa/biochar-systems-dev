@@ -1,5 +1,5 @@
 ---
-title: "Uppsala"
+title: "Uppsala - Urban uses of biochar"
 description: "
 *What was our motivation?*
 
@@ -16,7 +16,7 @@ menu:
     name: "4. Uppsala"
     weight: 5
 
-category: ["LCA", "MFA", "Sweden"]
+category: ["LCA", "MFA", "Sweden", "Urban biochar use", "Uppsala"]
 information:
   - info : "Multiple life cycle assessments of novel urban biochar applications were performed."
   - info : "Urban biochar use can have better climate impact than reference and oxidative uses."

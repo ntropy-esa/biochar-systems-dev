@@ -11,7 +11,7 @@ menu:
     name: "5. GIS Sweden"
     weight: 6
 
-category: ["GIS", "Sweden"]
+category: ["GIS", "Sweden", "Arable land"]
 information:
   - label : "Team"
     info : "Shivesh, Fabian, Elias, Cecilia"

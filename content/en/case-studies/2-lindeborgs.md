@@ -1,5 +1,5 @@
 ---
-title: "Lindeborgs"
+title: "Lindeborgs - Biochar production potential, variability and environmental performance at the farm level "
 description: "
 *What was our motivation?*
 
@@ -11,7 +11,7 @@ draft: false
 image : "case-studies/2-lindeborgs-art.png"
 weight : 3
 bg_image: "images/feature-bg.jpg"
-category:  [ "Sweden", "LCA" ]
+category:  [ "Sweden", "LCA", "Lindeborg", "Farm heating"]
 menu:
   main:
     parent: "Case studies"

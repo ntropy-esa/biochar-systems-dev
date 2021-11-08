@@ -1,5 +1,5 @@
 ---
-title: "Helsingborg"
+title: "Helsingborg - Biochar produced from wood waste for soil remediation"
 description: "
 *What was our motivation?*
 
@@ -17,7 +17,7 @@ menu:
     name: "3. Helsingborg"
     weight: 4
 
-category:  [ "Sweden", "LCA", "MFA", "SFA" ]
+category:  [ "Sweden", "LCA", "MFA", "SFA", "Soil remediation", "Helsingborg"]
 information:
   - info : "Using biochar for soil remediation was compared to landfilling of contaminated soil."
   - info : "Biochar treatment brought large reductions of CO<sub>2</sub>-emissions compared to landfilling."
