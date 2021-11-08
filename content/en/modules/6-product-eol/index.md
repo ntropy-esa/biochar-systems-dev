@@ -1,9 +1,11 @@
 ---
 title: "6 - Biochar product disposal"
-description: "this is meta description"
+description: "
+Page under construction.
+"
+title_image: "pyreg-sbp.jpg" # find a img of pyrolysis oil and gas, or a burner of it, or a condenser...
+title_image_credit: "Stockholm Vatten och Avfall"
 draft: false
-image : "images/portfolio/work2.jpg"
-bg_image: "images/feature-bg.jpg"
 menu:
   main:
     parent: "Systems analysis"
