@@ -27,6 +27,21 @@ a:hover {
   color: $primary-color;
 }
 
+.btn {
+  text-decoration: none;
+}
+
+// Styling of links in text paragraphs (unlike links in buttons or menu)
+p a {
+  text-decoration: none;
+}
+
+p a:focus,
+p a:hover {
+  text-decoration: underline;
+}
+
+
 blockquote {
   font-size: 18px;
   border-color: $primary-color;
