@@ -44,7 +44,7 @@ information:
   ### Presentations
   The work was presented at a conference and several workshops. Download presentation slides below:
 
-  {{< button href="../azzi2019.ris" icon="download" >}} 2020 Webinar slides {{< /button >}}
+  {{< button href="../presentation_2020-04-15_Remediation_GreenCarbonWebinar.pdf" icon="download" >}} 2020 Webinar slides {{< /button >}}
   <br/><br/>
 
   ### Project report

@@ -44,7 +44,7 @@ information:
   ### Presentations
   The work was presented at a conference and several workshops. Download presentation slides below:
 
-  {{< button href="../azzi2019.ris" icon="download" >}} 2019, Cetraro, Bio-char II conference {{< /button >}}
+  {{< button href="../presentation_2019-09-16_BiocharII_Farm scale biochar production.pdf" icon="download" >}} 2019, Cetraro, Bio-char II conference {{< /button >}}
   <br/><br/>
   </div>
   <div class="col-md-4">

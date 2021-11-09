@@ -42,9 +42,9 @@ information:
   ### Presentations
   The work was presented at two conferences and several workshops. Download presentation slides below:
 
-  {{< button href="../azzi2019.ris" icon="download" >}} 2019, Stockholm, Nordic Biochar conference {{< /button >}}
+  {{< button href="../presentation_2019-10-16_NBN Conference_P1 Stockholm.pdf" icon="download" >}} 2019, Stockholm, Nordic Biochar conference {{< /button >}}
   <br/><br/>
-  {{< button href="../azzi2019.ris" icon="download" >}} 2018, Gothenburg, Negative emission conference{{< /button >}}
+  {{< button href="../presentation_2018-05-23_Neg CO2_P1 Stockholm.pdf" icon="download" >}} 2018, Gothenburg, Negative emission conference{{< /button >}}
   </div>
   <div class="col-md-4">
 

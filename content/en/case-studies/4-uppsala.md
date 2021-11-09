@@ -44,11 +44,9 @@ information:
   ### Presentations
   The work was presented at a conference and several workshops, for different target audiences. Download presentation slides below:
 
-  {{< button href="../azzi2019.ris" icon="download" >}} 2021 LCM conference {{< /button >}}
+  {{< button href="../presentation_2021-08-15_LCM 2021 short_Biochar urban applications.pdf" icon="download" >}} 2021 LCM conference, short {{< /button >}}
   <br/><br/>
-  {{< button href="../azzi2019.ris" icon="download" >}} 2021 Project workshop {{< /button >}}
-  <br/><br/>
-  {{< button href="../azzi2019.ris" icon="download" >}} 2021 Green carbon webinar {{< /button >}}
+  {{< button href="../presentation_2021-08-15_LCM 2021 extended_Biochar urban applications.pdf" icon="download" >}} 2021 Project workshop, long {{< /button >}}
 
   <br/><br/>
 
