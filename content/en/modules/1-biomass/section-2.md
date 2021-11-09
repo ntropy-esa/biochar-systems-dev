@@ -1,7 +1,7 @@
 ---
 name: "Knowledge level 0"
 styling:
-    sectionClass: "section-sm section-light"
+    sectionClass: "section-sm section-dark"
     containerClass: " "
     rowClass: ""
 # in one row, nb of boostrap columns can be defined directly below in HTML
@@ -24,9 +24,7 @@ gallery_item:
     caption: "Dried sewage sludge"
 ---
 
-{{< gallery album="gallery-biomass" order="asc" resize_options="200x200 webp" classDiv= "col-md-8 text-center" >}}
-
-<div class="col-md-4 text-left">
+<div class="col-md-4 text-left col-md-push-8">
 
 #### **Click on the pictures for details**
 
@@ -37,5 +35,10 @@ All these biomass feedstocks have been used in Sweden and Europe to produce bioc
 * Logging residues
 * Willow woochips
 * Sewage sludge
+* Beach cast (algae)
 
 </div>
+
+{{< gallery album="gallery-biomass" order="asc" resize_options="200x200 webp" classDiv= "col-md-8 text-center col-md-pull-4" >}}
+
+
