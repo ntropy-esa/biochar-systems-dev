@@ -26,20 +26,58 @@ information:
   - info : "Biochar for remediation is promising but needs case-specific risk assessment."
 ---
 
-## **Reference, Resources, Presentations** 
-- Papageorgiou A, Azzi ES, Enell A, Sundberg C (2021) Biochar produced from wood waste for soil remediation in Sweden: carbon sequestration and other environmental impacts. Science of the Total Environment 145953. DOI: [10.1016/j.scitotenv.2021.145953](https://doi.org/10.1016/j.scitotenv.2021.145953)
-<br/>{{< button href="../papageorgiou2021_HELS.ris" icon="download" >}} Download Citation as RIS {{< /button >}}
+## **Resources**
+<div class="row">
+  <div class="col-md-4">
 
-- Article: published as open-source, available at the link above
-  
-- Model: based on Excel & brightway2, available upon request
-  
-- Presentations: the work was presented at a [recorded webinar](https://youtu.be/Wd1aSp3Fp-E?t=789).
-<br/>{{< button href="../azzi2019.ris" icon="download" >}} 2020 Presentation slides {{< /button >}} 
+  ### Reference
+ Papageorgiou A, Azzi ES, Enell A, Sundberg C (2021) Biochar produced from wood waste for soil remediation in Sweden: carbon sequestration and other environmental impacts. Science of the Total Environment 145953. DOI: [10.1016/j.scitotenv.2021.145953](https://doi.org/10.1016/j.scitotenv.2021.145953)
 
-- Related publications: Enell A, Azzi ES, Berggren Kleja D, et al (2020) Biokol - från organiskt avfall till resurs för nyttiggörande av jordavfall, Syntesrapport, Statens geotekniska institut, SGI, Linköping, 2020-11-09. Linköping
+
+  {{< button href="../papageorgiou2021_HELS.ris" icon="download" >}} Download citation as RIS {{< /button >}}
+  <br/><br/>
+  {{< button href="https://www.sciencedirect.com/science/article/pii/S0048969721010202/pdfft?isDTMRedir=true&download=true" icon="download" >}} Download as PDF {{< /button >}}
+  </div>
+
+  <div class="col-md-4">
+
+  ### Presentations
+  The work was presented at a conference and several workshops. Download presentation slides below:
+
+  {{< button href="../azzi2019.ris" icon="download" >}} 2020 Webinar slides {{< /button >}}
+  <br/><br/>
+
+  ### Project report
+  A project report was also published in Swedish language: Enell A, Azzi ES, Berggren Kleja D, et al (2020) Biokol - från organiskt avfall till resurs för nyttiggörande av jordavfall, Syntesrapport, Statens geotekniska institut, SGI, Linköping, 2020-11-09. Linköping
+
+  {{< button href="https://www.sgi.se/globalassets/syntesrapport-biokol-resource-2020-11-09_ny.pdf" icon="download" >}} Download as PDF {{< /button >}}
+
+  </div>
+  <div class="col-md-4">
+
+  ### Model
+  The modelling was performed in Microsoft Excel and python, using brightway2. The files are available upon request.
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+  
+  ### Recordings
+  Watch a presentation of the article.
+  </div>
+
+  <div class="col-md-5">
+  {{< youtube_test id="JDAvGN5jbW4" title="Green Carbon webinar" autoplay="false" start="0" >}}
+  </div>
+  
+</div>
+  
 
 ## **Want to read more?**
+<div class="row">
+  <div class="col-md-10">
 
 ### Abstract 
 
@@ -53,12 +91,15 @@ The SFA indicated that leaching of PAH from the remediated soil was lower than f
 
 Overall, in Sweden's current context, the biochar remediation technique is an environmentally promising alternative to landfilling worth investigating further.
 
-### Technical comments
+ </div>
 
-A compilation of comments that usually arise when disucssing this article.
+  <div class="col-md-10">
 
-{{% expandcss idLabel="dimensioning" title="**" %}}
+  ### Frequently asked questions [under construction]
+
+  A compilation of comments and questions arising from disucssing this article. Don't hesitate to contact us if you have questions.
+
+{{% expandcss idLabel="dimensioning" title="" %}}
 {{% /expandcss %}}
 
-{{% expandcss idLabel="selfsustaining" title="**" %}}
-{{% /expandcss %}}
+</div></div>

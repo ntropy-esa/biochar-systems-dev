@@ -26,17 +26,58 @@ information:
 
 ---
 
-## **Reference, Resources, Presentations** 
-- Azzi ES, Karltun E, Sundberg C (2021) Life cycle assessment of urban uses of biochar and case study in Uppsala, Sweden. DOI: [submitted to journal]()
-<br/>{{< button href="" icon="download" >}} Download Citation as RIS {{< /button >}}  
- 
-- Model: available on GitHub at [P5_uppsala](https://github.com/ntropy-esa/P5_uppsala)
+## **Resources**
+<div class="row">
+  <div class="col-md-4">
+
+  ### Reference
+ Azzi ES, Karltun E, Sundberg C (2021) Life cycle assessment of urban uses of biochar and case study in Uppsala, Sweden. DOI: [submitted to journal]()
+
+
+  {{< button href="" icon="download" >}} Download citation as RIS {{< /button >}}
+  <br/><br/>
+  {{< button href="../P4_Azzi_202x_Uppsala_prePrint.pdf" icon="download" >}} Download as pre-print PDF {{< /button >}}
+  </div>
+
+  <div class="col-md-4">
+
+  ### Presentations
+  The work was presented at a conference and several workshops, for different target audiences. Download presentation slides below:
+
+  {{< button href="../azzi2019.ris" icon="download" >}} 2021 LCM conference {{< /button >}}
+  <br/><br/>
+  {{< button href="../azzi2019.ris" icon="download" >}} 2021 Project workshop {{< /button >}}
+  <br/><br/>
+  {{< button href="../azzi2019.ris" icon="download" >}} 2021 Green carbon webinar {{< /button >}}
+
+  <br/><br/>
+
+  </div>
+  <div class="col-md-4">
+
+  ### Model
+  The modelling was performed in python, using brightway2. The files are available on GitHub at [P5_uppsala](https://github.com/ntropy-esa/P5_uppsala).
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
   
-- Presentations: the work was presented at a [recorded webinar](https://youtu.be/Wd1aSp3Fp-E?t=789) and at the Life Cycle Management Conference (2021).
-<br/>{{< button href="../azzi2019.ris" icon="download" >}} 2019 Presentation slides {{< /button >}} 
+  ### Recordings
+  Watch a presentation of the article.
+  </div>
+
+  <div class="col-md-5">
+  {{< youtube_test id="PfIGIUWJnkw" title="Green Carbon webinar" autoplay="false" start="0" >}}
+  </div>
+  
+</div>
 
 
 ## **Want to read more?**
+<div class="row">
+  <div class="col-md-10">
 
 ### Abstract 
 
@@ -46,18 +87,19 @@ In a decarbonised energy system and if biochar stability is high, all biochar pr
 
 In other environmental impact categories, biochar products had either higher or lower impacts than the reference, depending on biochar supply-chains and materials substituted, with trade-offs between sectors and impact categories. This said, several use phase effects of biochar were not included in the assessment due to knowledge limitations.
 
-In Uppsala’s new district, biochar demand was around 1700 m3 year-1 during the 25 years of construction. By 2100, 23% of the biochar accumulated in landfills, raising questions for end-of-life management of biochar-containing products.
+In Uppsala’s new district, biochar demand was around 1700 m<sup>3</sup> year<sup>-1</sup> during the 25 years of construction. By 2100, 23% of the biochar accumulated in landfills, raising questions for end-of-life management of biochar-containing products.
 
 Overall, in a post-fossil economy, biochar can be a carbon dioxide removal technology with benefits, but biochar applications must be designed to maximise co-benefits.
 
-### Technical comments
+ </div>
 
-A compilation of comments that usually arise when disucssing this article.
+  <div class="col-md-10">
+
+  ### Frequently asked questions [under construction]
+
+  A compilation of comments and questions arising from disucssing this article. Don't hesitate to contact us if you have questions.
 
 {{% expandcss idLabel="dimensioning" title="" %}}
-  .   
 {{% /expandcss %}}
 
-{{% expandcss idLabel="selfsustaining" title="" %}}
-  .
-{{% /expandcss %}}
+</div>

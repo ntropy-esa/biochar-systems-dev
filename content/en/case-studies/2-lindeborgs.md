@@ -26,20 +26,52 @@ information:
   - info : "Sustainable biomass provision and efficient biochar use are determinant factors."
 
 ---
+## **Resources**
+<div class="row">
+  <div class="col-md-4">
 
-## **Reference, Resources, Presentations** 
-- Azzi ES, Karltun E, Sundberg C (2021) Small-scale biochar production on Swedish farms: A model for estimating potential, variability, and environmental performance. Journal of Cleaner Production 280:124873. DOI: [10.1016/j.jclepro.2020.124873](https://doi.org/10.1016/j.jclepro.2020.124873)
-<br/>{{< button href="../azzi2021_LIN.ris" icon="download" >}} Download Citation as RIS {{< /button >}}  
+  ### Reference
+ Azzi ES, Karltun E, Sundberg C (2021) Small-scale biochar production on Swedish farms: A model for estimating potential, variability, and environmental performance. Journal of Cleaner Production 280:124873. DOI: [10.1016/j.jclepro.2020.124873](https://doi.org/10.1016/j.jclepro.2020.124873) 
 
-- Article: published as open-source, available at the link above
+
+  {{< button href="../azzi2021_LIN.ris" icon="download" >}} Download citation as RIS {{< /button >}}
+  <br/><br/>
+  {{< button href="https://www.sciencedirect.com/science/article/pii/S0959652620349179/pdfft?isDTMRedir=true&download=true" icon="download" >}} Download as PDF {{< /button >}}
+  </div>
+
+  <div class="col-md-4">
+
+  ### Presentations
+  The work was presented at a conference and several workshops. Download presentation slides below:
+
+  {{< button href="../azzi2019.ris" icon="download" >}} 2019, Cetraro, Bio-char II conference {{< /button >}}
+  <br/><br/>
+  </div>
+  <div class="col-md-4">
+
+  ### Model
+  The modelling was performed in python, using brightway2 and ficus. The files are available on GitHub at [P2_farm_biochar](https://github.com/ntropy-esa/P2_farm_biochar). 
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
   
-- Model: available on GitHub at [P2_farm_biochar](https://github.com/ntropy-esa/P2_farm_biochar)
+  ### Recordings
+  Watch a presentation of the article.
+  </div>
+
+  <div class="col-md-5">
+  {{< youtube_test id="Wd1aSp3Fp-E" title="1st Green Carbon webinar" autoplay="false" start="790" >}}
+  </div>
   
-- Presentations: the work was presented at the Biochar II conference in Italy, 2019, and at a [recorded webinar](https://youtu.be/Wd1aSp3Fp-E?t=789).
-<br/>{{< button href="../azzi2019.ris" icon="download" >}} 2019 Presentation slides {{< /button >}} 
+</div>
 
 
 ## **Want to read more?**
+<div class="row">
+  <div class="col-md-10">
 
 ### Abstract 
 
@@ -51,15 +83,20 @@ Several small-scale pyrolysis plants have been installed on Swedish farms and up
  
  To improve the environmental footprint of future biochar systems, it is crucial that expected co-benefits from biochar use in agriculture are realised. The model developed here is available for application to other cases.
 
-### Technical comments
+  </div>
 
-A compilation of comments that usually arise when disucssing this article.
+  <div class="col-md-10">
 
-{{% expandcss idLabel="dimensioning" title="*How to dimension a pyrolysis heating system?*" %}}
-  .    
+  ### Frequently asked questions [under construction]
 
+  A compilation of comments and questions arising from disucssing this article. Don't hesitate to contact us if you have questions.
+
+{{% expandcss idLabel="dimensioning" title="" %}}
+  
 {{% /expandcss %}}
 
-{{% expandcss idLabel="selfsustaining" title="*biochar as heat*" %}}
+{{% expandcss idLabel="selfsustaining" title="" %}}
   .
 {{% /expandcss %}}
+
+</div></div>

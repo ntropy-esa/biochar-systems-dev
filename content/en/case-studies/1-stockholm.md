@@ -24,35 +24,98 @@ information:
 
 ---
 
-## **Reference, Resources, Presentations** 
-- Azzi ES, Karltun E, Sundberg C (2019) Prospective life cycle assessment of large-scale biochar production and use for negative emissions in Stockholm. Environmental Science & Technology 53:8466–8476. DOI: [10.1021/acs.est.9b01615](https://pubs.acs.org/doi/10.1021/acs.est.9b01615) <br/>{{< button href="../azzi2019.ris" icon="download" >}} Download Citation as RIS {{< /button >}}  
-- Article: published in a non-open source journal, back in 2019 when there Swedish academia had not yet agree for. Share a pre-print ! 
-- Model: performed in Excel, the files are available upon request.
+## **Resources**
+<div class="row">
+  <div class="col-md-4">
+
+  ### Reference
+  Azzi ES, Karltun E, Sundberg C (2019) Prospective life cycle assessment of large-scale biochar production and use for negative emissions in Stockholm. Environmental Science & Technology 53:8466–8476. DOI: [10.1021/acs.est.9b01615](https://pubs.acs.org/doi/10.1021/acs.est.9b01615) 
+
+
+  {{< button href="../azzi2019.ris" icon="download" >}} Download citation as RIS {{< /button >}}
+  <br/><br/>
+  {{< button href="../2019-06-18_EnvSciTech_Prospective LCA large scale biochar_prePrint.pdf" icon="download" >}} Download pre-print as PDF {{< /button >}}
+  </div>
+
+  <div class="col-md-4">
+
+  ### Presentations
+  The work was presented at two conferences and several workshops. Download presentation slides below:
+
+  {{< button href="../azzi2019.ris" icon="download" >}} 2019, Stockholm, Nordic Biochar conference {{< /button >}}
+  <br/><br/>
+  {{< button href="../azzi2019.ris" icon="download" >}} 2018, Gothenburg, Negative emission conference{{< /button >}}
+  </div>
+  <div class="col-md-4">
+
+  ### Model
+  The modelling was performed in Microsoft Excel. The file is available upon request.
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
   
-- Presentations: the work was presented at the 2 conferences, at several internal workshops, and at a [recorded webinar](https://youtu.be/Wd1aSp3Fp-E?t=789). 
-<br/>{{< button href="../azzi2019.ris" icon="download" >}} 2019 Presentation slides {{< /button >}} 
+  ### Recordings
+  Watch a presentation of the article.
+  </div>
+
+  <div class="col-md-5">
+  {{< youtube_test id="Wd1aSp3Fp-E" title="1st Green Carbon webinar" autoplay="false" start="790" >}}
+  </div>
+  
+</div>
+
 
 
 ## **Want to read more?**
+<div class="row">
+  <div class="col-md-10">
 
-### Abstract 
+  ### Abstract 
 
-Several cities in Sweden are aiming for climate neutrality within a few decades and for negative emissions thereafter. Combined biochar, heat, and power production is an option to achieve carbon sequestration for cities relying on biomass-fuelled district heating, while biochar use could mitigate environmental pollution and greenhouse gas emissions from the agricultural sector. By using prospective life cycle assessment, the climate impact of the pyrolysis of woodchips in Stockholm is compared with two reference scenarios based on woodchip combustion. The pyrolysis of woodchips produces heat and power for the city of Stockholm, and biochar whose potential use as a feed and manure additive on Swedish dairy farms is explored. The climate change mitigation trade-off between bioenergy production and biochar carbon sequestration in Stockholm’s context is dominated by the fate of marginal power. If decarbonisation of power is achieved, building a new pyrolysis plant becomes a better climate option than conventional combustion. Effects of cascading biochar use in animal husbandry are uncertain but could provide 10–20% more mitigation than direct biochar soil incorporation. These results help design regional biochar systems that combine negative carbon dioxide emissions with increased methane and nitrous oxide mitigation efforts and can also guide the development of minimum performance criteria for biochar products.
+  Several cities in Sweden are aiming for climate neutrality within a few decades and for negative emissions thereafter. Combined biochar, heat, and power production is an option to achieve carbon sequestration for cities relying on biomass-fuelled district heating, while biochar use could mitigate environmental pollution and greenhouse gas emissions from the agricultural sector. By using prospective life cycle assessment, the climate impact of the pyrolysis of woodchips in Stockholm is compared with two reference scenarios based on woodchip combustion. The pyrolysis of woodchips produces heat and power for the city of Stockholm, and biochar whose potential use as a feed and manure additive on Swedish dairy farms is explored. The climate change mitigation trade-off between bioenergy production and biochar carbon sequestration in Stockholm’s context is dominated by the fate of marginal power. If decarbonisation of power is achieved, building a new pyrolysis plant becomes a better climate option than conventional combustion. Effects of cascading biochar use in animal husbandry are uncertain but could provide 10–20% more mitigation than direct biochar soil incorporation. These results help design regional biochar systems that combine negative carbon dioxide emissions with increased methane and nitrous oxide mitigation efforts and can also guide the development of minimum performance criteria for biochar products.
+  </div>
 
-### Technical comments
+  <div class="col-md-10">
 
-A compilation of comments that usually arise when disucssing this article.
+  ### Frequently asked questions [under construction]
 
-{{% expandcss idLabel="marginal-elec" title="*On the choice of marignal fuel for electricity*" %}}
-  In the article, we used 3 time periods to describe the marginal electricity mix (2020: coal-dominated, 2030: coal and natural gas mix, 2040; efficient natural gas). This was based on a report from , and their specific methodology. Altough both the modelling and the time frame suggested can be discussed, the conclusion that remains is that: biochar is rarely preferable over bioenergy in a fossil energy system. It is even counter-productive. Later, we recalculated these results with the current Swedish average mix for electricity (cf. thesis). The climate-relevance of the energy-biochar trade-off is in that case much less important.    
+  A compilation of comments and questions arising from disucssing this article. Don't hesitate to contact us if you have questions.
+
+{{% expandcss idLabel="marginal-elec" title="On the choice of marignal type of electricity" %}}
+  In the article, we used 3 time periods to describe the marginal electricity mix:
+  - 2020: coal-dominated, at 1000 gCO<sub>2</sub>-eq kWh<sup>-1</sup>
+  - 2030: coal and natural gas mix, at 500 gCO<sub>2</sub>-eq kWh<sup>-1</sup>
+  - 2040: efficient natural gas, at 250 gCO<sub>2</sub>-eq kWh<sup>-1</sup>).
+  
+  All these values are higher than the current average emission factor for electricity in Sweden, which is around 40-50 gCO<sub>2</sub>-eq kWh<sup>-1</sup>.
+  
+  This was based on a report from Hagberg (2017) and their specific methodology. Altough both the modelling and the time frame suggested can be discussed, the conclusion that remains is that biochar is rarely preferable over conventional bioenergy in a fossil energy system. Despite carbon sequestration, it does not achieve as much climate-change mitigation as an efficient combined heat and power plant introduced in a fossil energy system. 
+  
+  Later, we recalculated these results with the current Swedish average mix for electricity (dominated by nuclear and hydro power). The climate-relevance of the energy-biochar trade-off is in that case much less important. This led to the following general conclusions for energy utilities. 
+  
+  Investing in biochar production capacity is a rather suitable climate decision if the four following conditions are met: 
+  - in both the short- and long-term, you foresee that energy services (e.g. heat and electricity) will have a climate change impact well-below the one from natural gas energy generation,
+  - if you foresee that sustainable biomass is available in sufficient amounts, considering also other potential uses of biomass under development,
+  - if you are confident that the biochar production process selected will lead to a form of biochar that is highly stable in soils,
+  - if you can ensure that biochar will be used in applications that provide tangible socio-environmental benefits.
 
 {{% /expandcss %}}
 
-{{% expandcss idLabel="agri-dairy-effects" title="*On modelling agricultural effects of biochar*" %}}
-  - Effect on soil N2O
+{{% expandcss idLabel="agri-dairy-effects" title="Effects of biochar in agriculture" %}}
 
+Biochar effects in agriculture are very variable because of both the diversity of agricultural systems and the diversity of biochar properties.
+
+The three main effects considered in this study were: 
+  - Effect on soil N<sub>2</sub>O emissions
   - Effect on animal manure mangement
-
   - Effect on enteric fermentation
 
+The estimates presented in the paper must be seen as explorative values. On-farm experimentation is needed as effective emission reductions are likely to be influenced by many contextual factors.
+
 {{% /expandcss %}}
+
+  </div>
+</div>  
