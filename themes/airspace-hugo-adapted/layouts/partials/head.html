@@ -67,5 +67,7 @@
 	{{- range .Params.css }}
 	<link rel="stylesheet" href="{{  . | relURL }}.css  " >
 	{{- end }}
-
+	
+	<!-- Page-specific javascript for equations in Mathjax #ESA -->
+	{{ if .Params.mathjax }}{{ partial "mathjax_support.html" . }}{{ end }}
 </head>
