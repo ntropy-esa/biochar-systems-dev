@@ -31,6 +31,20 @@ mathjax : true
 }
 </style>
 
+## Expandcss shortcode
+
+## Comparative review of biochar C trading platforms
+
+{{% expandcss idLabel="puro" title=" **Puro.Earth** " %}}
+  Inner content that will be **markdownified** and blablabla
+{{% /expandcss %}}
+
+{{% expandcss idLabel="carbonfuture" title="**Carbon Futures**" %}}
+  Inner content that will be **markdownified** and blablabla
+{{% /expandcss %}}
+
+
+
 ## Notice shortcode
 {{% notice note %}}
 A notice disclaimer, as a note
