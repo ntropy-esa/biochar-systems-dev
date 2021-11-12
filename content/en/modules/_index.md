@@ -1,6 +1,8 @@
 ---
 title: "Biochar systems analysis"
-description: "" # How to analyse biochar production and use in a systematic manner
+description: "
+Here, we present a generic flowchart to describe biochar systems and we link to 8 modules that explain each part of a biochar system.
+" # How to analyse biochar production and use in a systematic manner
 draft: false
 bg_image: ""
 menu:
@@ -24,6 +26,10 @@ portfolio:
 ---
 
 {{< svg src="img/flowchart.svg" >}}
+
+{{% notice note %}}
+A notice disclaimer
+{{% /notice %}}
 
 ## **An interactive flowchart** 
 The flowchart above describes a biochar system, starting with the <mark>production of biomass</mark> and finishing with the <mark>end-of-life of the biochar product</mark>. Outside of the boundaries, a <mark>reference system</mark> is depicted. 

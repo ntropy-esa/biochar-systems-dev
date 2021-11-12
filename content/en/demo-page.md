@@ -16,6 +16,8 @@ menu:
 # Page-specific JavaScript & CSS #ESA
 js : ["bw2widgets/d3.v7.min", "bw2widgets/d3-scale-chromatic.v1.min", "bw2widgets/d3-sankey-diagram.min", "bw2widgets/widget_plot_types", "js/mermaid.min"]
 css : ["bw2widgets/widget"]
+mathjax : true
+
 ---	
 <!-- Add style to links or they won't appear properly-->
 <style>
@@ -28,6 +30,24 @@ css : ["bw2widgets/widget"]
   stroke-opacity: .5;
 }
 </style>
+
+## Notice shortcode
+{{% notice note %}}
+A notice disclaimer, as a note
+{{% /notice %}}
+
+{{% notice warning %}}
+A notice disclaimer, as a warning
+{{% /notice %}}
+
+Can take the values: warning, note, info, tip
+
+## Insert scientific equations in Latex
+
+  $$ Y_{BC} = 0.1261 + 0.5391 e^{-0.004T} + 0.002733L $$
+
+  $ F_C = (1 - \frac{F_{a,bm}}{F_{a,bm} + Y_{BC}} ) * (0.93 - 0.92 e^{-0.0042T}) $
+
 
 ## Insert a sankey 
 Random markdown text before the widget

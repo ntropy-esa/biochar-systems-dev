@@ -32,7 +32,7 @@ Git & GitHub are two different things, but we use them together.
 
 From the git command line, we can push the changes we made locally onto the remote (online github repository), so that others can have access to the updates.
 
-- Install git (from Software Center on a KTH laptop, or from https://gitforwindows.org/)
+- Install git (from Software Center on a KTH laptop, or from https://gitforwindows.org/). ALTERNATIVELY: use Github Desktop app.
 - Make a github account (https://github.com/) & ask to access this repository as editor from another person in the project
 
 ### 3. A nice text editor
@@ -97,7 +97,7 @@ git remote add origin https://github.com/ntropy-esa/biochar-systems-dev
 
 To do that properly, 
 - open visual code (your new text editor), and select the folder biochar-systems-dev
-- open a git bash in your local folder biochar-systems-dev: this window will be used for git commands, checking status, making commits
+- open a git bash in your local folder biochar-systems-dev: this window will be used for git commands, checking status, making commits (or GitHub Desktop)
 - open another git bash cmd in the folder biochar-systems-dev, and run in that one the command hugo ``` hugo serve -D --disableFastRender ``` This will launch a local web server on your computer. It will tell you that the hugo website is running at some localhost adress. Open your favorite web browser (ideally in a private window, to avoid style caching issues) and type that address (typically http://localhost:1313/biochar-systems/). Any changes you do in the content files, will  be rendered directly. Sometimes, there are bugs and it won't manage to compile and render the changes. In that case, just interrupt (Ctrl+C in that bash window), and re-type the command (shortcut: arrow-up, and enter).
 
 ### Hugo folder structure
@@ -148,7 +148,14 @@ Some of the shortcodes currently installed in this project (check the folders: l
 #### fontawesome
 #### bw2widget
 #### stabilitytable
-#### ...
+#### notice
+Can be of type: tip (green), warning (red), info (orange), note (blue)
+{{% notice tip %}}
+A notice disclaimer
+{{% /notice %}}
+
+### Scientific formulas
+It's not a shortcode, but a plugin based on MathJax. It allows to write scientific equations as in LaTeX, and they will be rendered in html using this MathJax.js library. See example on demo page. It needs the parameter ```mathjax : true``` in the frontmatter of the page.
 
 ### Commit your changes in git
 
