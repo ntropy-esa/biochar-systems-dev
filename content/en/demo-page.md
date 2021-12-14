@@ -44,6 +44,15 @@ mathjax : true
 {{% /expandcss %}}
 
 
+## Tabs
+
+{{< tabs name="MEB_pyrolysis">}}
+  {{% tab name="Model 1"%}}
+  This model applies to the simple, yet most common, case where pyrolysis oil & gas are directly combusted after pyrolysis to generate heat. It was developped and used in the case studies of this paper.
+
+  {{% /tab %}}
+
+{{< /tabs >}}
 
 ## Notice shortcode
 {{% notice note %}}

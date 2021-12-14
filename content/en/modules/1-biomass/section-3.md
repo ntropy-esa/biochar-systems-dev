@@ -10,16 +10,27 @@ styling:
 
 <div class="col-md-12 text-left">
 
-## **Primary or waste biomass?**
+## **Characterising a biomass resource**
 
-We commonly hear that ... keywords: primary/cultivated/dedicated as opposed to secondary/by-product/waste 
-The distinction is used to emphasize that using secondary biomass has limited environmental impacts.
+The first thing we may think of are the <mark>chemical and physical properties</mark> of the biomass. These can be determined by sending a sample of biomass for laboratory analyses. Alternatively, data can be found in existing litterature and databases.
 
-In fact that claim refers to a subtle notion in environmental systems analysis & life-cycle assessment, a notion we call: reference land or biomass use. Synonyms: counterfactual, alternative fate, reference situation, reference fate.
+{{% notice tip%}}
+The <a href="https://phyllis.nl/" target="_blank">phyllis database</a> contains information on the composition of biomass and waste (e.g. ultimate analysis, proximate analysis). It is an reknown data source.
+{{% /notice %}} 
 
-There is always a reference fate, even if implicit. This becomes clear when we take as example the climate impact from burning fossil oil in an engine. Here, the implicit reference situation is that if not extracted and combusted in an engine, fossil oil would remain in the geosphere and not release any carbon (the reference emissions are therefore set to 0). This is a rather undebated assumption when it comes to fossil fuels, but as soon as we look into biomass feedstocks things get more complicated: there are often several possible reference situations. 
+For practice, other aspects need to be considered to fully characterise a biomass resource: 
+- How wet is the feedstock? It is very dry (<10%), rather wet (around 50%), or very wet (>60%)? High moisture levels affect for instance storage, transportation or pre-treatment requirements.
 
-Peat (both horticultural and energy peat), which is sometimes considered a fossil resource, is an interesting example.
+- Is it a problematic or heterogenous feedstock? For instance, the composition of garden waste is known to vary from one place to another, but also in time. Beach cast (algae collected from beach cleaning operations) can be mixed with varying amounts of sand, which is a challenge for some industrial processing techniques. 
+
+- How much and when is the biomass available? Is the biomass harvested continuously over the year, or only once a year in a given season. Can it be easily stored, for a continuous supply?
+
+- Is it primary or waste biomass? Although it is a subjective and changing notion, we commonly hear that biochar can be produced from waste biomass as opposed to primary biomass. <mark>Waste biomass</mark> is sometimes referred to as secondary, by-product, or side-product biomass. Waste biomass is seen as an undesired product for a given stakeholder. <mark>Primary biomass</mark> is also referred to as cultivated biomass or dedicated biomass. Primary biomass is the main output of an activity.
+
+The distinction between waste and primary biomass is used to emphasize that using waste biomass has limited environmental impacts, does not affect land use. In fact this claim refers to a subtle notion in environmental systems analysis & life-cycle assessment, a notion called the reference land or biomass use. More about this in the next section.
+
+
+
 
 </div>
 
