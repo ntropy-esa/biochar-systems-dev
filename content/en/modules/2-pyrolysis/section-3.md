@@ -11,17 +11,16 @@ styling:
 
 ## **Installed pyrolysis plants**
 
-The number of pyrolysis plants (for biochar production) installed in Europe is increasing, and was estimated to xx (EBI, 2021).
+The number of pyrolysis plants (for biochar production) installed in Europe is increasing. In 2020, the European Biochar Institute estimated that there were 72 plants installed, with a total production capacity of 20 000 tonnes of biochar per year (EBI, 2021).
 
-We maintain an survey of installed biochar production capacity. To contribute, please answer <u>[this survey]()</u>.
+We maintain a survey of installed biochar production capacity. To contribute, please answer <u>[the survey]()</u>.
 
 
 </div>
 
 <div class="col-md-8">
 
-### Some plotly figure loaded from a csv file, itself coming from the survey+annual update
-
-Figure 
+{{< figure src="2-pyrolysis-survey-units.png" title="*Installed biochar production capacity in Sweden over time* [To do: EU data, plotly interactive figure]" width="100%">}}
+ 
 
 </div>

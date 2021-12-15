@@ -10,13 +10,13 @@ lastmod: "2021-10-06"
 # in one row, nb of boostrap columns can be defined directly below in HTML
 ---
 
-<div class="col-md-8">
+<div class="col-md-7">
 
 ### **Scientific literature** - a _selection_
 
-Between the early 2000s and 2020, xxx article research articles including the keyword <mark>biochar</mark> were published in academic journals. In the last 5 years, the annual number of publication was around: xxx. This corresponds to about x new research articles published every day (such statistics can be extracted from Scopus or xxx). <mark>These numbers imply that it is literally impossible - for researchers as well as individuals - to read all these new articles.</mark>
+Between the early 2000s and 2020, more than 15 000 research articles including the keyword <mark>biochar</mark> were published in academic journals. In 2020, about 4000 articles were published. This corresponds to more than 10 new articles every day. These numbers imply that it is literally impossible - for researchers as well as individuals - to read all the research that exists on biochar.
 
-Below, we suggest few major references, grouped by topics: 
+Therefore, we suggest below few <mark>major references</mark>, grouped by topics: 
 
 {{% expandcss idLabel="general" title=" **General overview** " %}}
 Paste here list of references...
@@ -44,8 +44,13 @@ Paste here list of references...
 
 This list was last updated on {{< lastmod >}}.
 
+<!-- Biochar literature can be analysed using the Scopus databases. Some typical requests: -->
+
+
 </div>
 
-<div class="col-md-4">
-* insert paper icon or scopus graph as webP or plotly figure * 
+<div class="col-md-4 col-md-push-1">
+<br /><br /><br />
+{{< figure src="resources-scopus-biochar.png" title="*Peer-reviewed publications containing the keyword biochar published annually, as indexed in Scopus*" width="100%">}}
+
 </div>

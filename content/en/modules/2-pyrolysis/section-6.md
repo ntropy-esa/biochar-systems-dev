@@ -19,6 +19,12 @@ To explore the topic further, we recommend the following references:
 * [article] Woolf 2014
 * [article] Woolf 2016
 
+- pyrolysis data from asia (related to flame curtain)
+- pyrolysis data from kon tiki flame curtain schimdt and co
+- pyrolysis data from pyreg erlend sormo
+
+- NBN Map link 
+
 * [link]
 
 </div>

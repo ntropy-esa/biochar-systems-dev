@@ -9,7 +9,7 @@ styling:
 
 <div class="col-md-8">
 
-### News apparations
+### News apparitions
 
 * [202x-xx-xx, media] [Title](link)
 * 

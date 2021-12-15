@@ -8,17 +8,23 @@ styling:
 
 ---
 
+<div class="col-md-10 text-left">
+
 ## **... lead to a diversity of product distribution and qualities**
+</div>
+<div class="col-md-2">
+</div>
 
 <div class="col-md-4 text-left">
-In the case of pyrolysis, 
 
 - Typical product distribution, .... in mass units .... in energy units...
-- qualities... of the char
 
-Properties of hydrothermal & torrefaction char... why is it peculiar 
+Weber K, Quicker P (2018) Properties of biochar. Fuel 217:240–261. https://doi.org/10.1016/j.fuel.2017.12.054
 
-Properties of gasification char... why is it peculiar
+UC David Biochar Database n.d. http://biochar.ucdavid.edu (accessed September
+30, 2015).
+
+Ippolito JA, Cui L, Kammann C, et al (2020) Feedstock choice, pyrolysis temperature and type influence biochar characteristics: a comprehensive meta-data analysis review. Biochar 2:421–438. https://doi.org/10.1007/s42773-020-00067-x
 
 ### **Mass and energy balance models for pyrolysis**
 Predicting the exact composition and the qualities of ... is not easy may require advanced chemistry models (e.g. Aspen, ...) or even actual experimentation and analysis of the products.
@@ -29,7 +35,7 @@ However, in the litterature, existing models for simpler models exists. Here, we
 <div class="col-md-8 text-left">
 {{< tabs name="MEB_pyrolysis">}}
   {{% tab name="Model 1"%}}
-  This model applies to the simple, yet most common, case where pyrolysis oil & gas are directly combusted after pyrolysis to generate heat. It was developped and used in the case studies of this paper.
+  This model applies to the simple, yet most common, case where pyrolysis oil & gas are directly combusted after pyrolysis to generate heat. It was developped and used in the case studies of this research project.
 
   **Description**:
   
