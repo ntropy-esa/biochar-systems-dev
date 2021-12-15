@@ -46,6 +46,12 @@ SYLVESTRE NJAKOU DJOMO, OUAFIK EL KASMIOUI, REINHART CEULEMANS
 First published: 11 November 2010
 https://doi.org/10.1111/j.1757-1707.2010.01073.x
 
+EU Database biomass production & supply 
+http://data.europa.eu/89h/jrc-alf-bio-biomass-db-lca-supply-chains-2018-protected
+And report DOI https://doi.org/10.2760/181536 
+Excel file supporting report: https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/ALF-BIO/datasets/biomass-db-lca-supply-chains-2018-protected/LATEST/BIOMASS_Database_of_LCA_supply_chains_2018_v2a_Protected.xlsx 
+
+DataM https://op.europa.eu/en/publication-detail/-/publication/ce366cbc-737e-4b7a-ac9b-a10490510c0a/language-en/format-PDF/source-245946220
 
 [from elsewhere]
 * [data] [Phyllis2](https://phyllis.nl/) - Database for the physico-chemical composition of (treated) lignocellulosic biomass, micro- and macroalgae, various feedstocks for biogas production and biochar, developed and maintained by TNO (Netherlands)

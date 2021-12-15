@@ -8,7 +8,7 @@ styling:
 
 ---
 
-<div class="col-md-12 text-left">
+<div class="col-md-8 text-left">
 
 ## **Characterising a biomass resource**
 
@@ -18,7 +18,8 @@ The first thing we may think of are the <mark>chemical and physical properties</
 The <a href="https://phyllis.nl/" target="_blank">phyllis database</a> contains information on the composition of biomass and waste (e.g. ultimate analysis, proximate analysis). It is an reknown data source.
 {{% /notice %}} 
 
-For practice, other aspects need to be considered to fully characterise a biomass resource: 
+For practice, other <mark>practical aspects</mark> need to be considered to fully characterise a biomass resource: 
+
 - How wet is the feedstock? It is very dry (<10%), rather wet (around 50%), or very wet (>60%)? High moisture levels affect for instance storage, transportation or pre-treatment requirements.
 
 - Is it a problematic or heterogenous feedstock? For instance, the composition of garden waste is known to vary from one place to another, but also in time. Beach cast (algae collected from beach cleaning operations) can be mixed with varying amounts of sand, which is a challenge for some industrial processing techniques. 
@@ -27,7 +28,7 @@ For practice, other aspects need to be considered to fully characterise a biomas
 
 - Is it primary or waste biomass? Although it is a subjective and changing notion, we commonly hear that biochar can be produced from waste biomass as opposed to primary biomass. <mark>Waste biomass</mark> is sometimes referred to as secondary, by-product, or side-product biomass. Waste biomass is seen as an undesired product for a given stakeholder. <mark>Primary biomass</mark> is also referred to as cultivated biomass or dedicated biomass. Primary biomass is the main output of an activity.
 
-The distinction between waste and primary biomass is used to emphasize that using waste biomass has limited environmental impacts, does not affect land use. In fact this claim refers to a subtle notion in environmental systems analysis & life-cycle assessment, a notion called the reference land or biomass use. More about this in the next section.
+The distinction between waste and primary biomass is used to emphasize that using waste biomass has limited environmental impacts, does not affect land use. In fact this claim refers to a subtle notion in environmental systems analysis & life-cycle assessment, a notion called the <mark>reference land or biomass use</mark>. More about this in the next section.
 
 
 

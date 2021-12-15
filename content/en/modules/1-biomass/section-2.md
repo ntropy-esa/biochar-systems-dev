@@ -53,7 +53,7 @@ gallery_item:
 
 #### **Click on the pictures for details**
 
-All these biomass feedstocks have been used in Sweden and Europe to produce biochar:
+All these biomass feedstocks have been used in Sweden and Europe to produce biochar.
 
 </div>
 
