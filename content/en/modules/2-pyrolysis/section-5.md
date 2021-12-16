@@ -21,13 +21,11 @@ How to read / Meaning of contributions
   
 Parameters: + disclaimer
 
-{{< bw2widget widgetName="X1"  widgetJS="bw2widgets/widget_demo_2" widgetTitle="For 1 tonne of biochar:" plotType="stackedbar">}} 
-Random markdown text after the widget
+{{< bw2widget widgetName="BSCtonne"  widgetJS="bw2widgets/widget_biochar-supply-chain" widgetTitle="For 1 tonne of biochar:" plotType="stackedbar" ylabel="kg CO₂-eq per kg biochar" >}} 
 
 Results in mass units can be converted to volume units by multiplying by the bulk density of biochar. This is done below: 
 
-{{< bw2widget widgetName="X2"  widgetJS="bw2widgets/widget_demo_2" widgetTitle="For 1 cubic meter of biochar:" plotType="stackedbar">}} 
+{{< bw2widget widgetName="BSCvol"  widgetJS="bw2widgets/widget_biochar-supply-chain-volume" widgetTitle="For 1 cubic meter of biochar:" plotType="stackedbar" ylabel="kg CO₂-eq per m³ biochar">}} 
 
-Random markdown text after the widget
 </div>
 

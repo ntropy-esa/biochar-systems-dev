@@ -9,7 +9,7 @@ styling:
 
 <div class="col-md-8">
 
-### Links to other websites
+### **Links to other websites**
 
 * [KTH Royal Institute of Technology, Stockholm](https://kth.se)
   

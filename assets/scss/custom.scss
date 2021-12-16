@@ -25,20 +25,25 @@
     position: relative;
   }
 
-// SCSS rules for SHORTCODE expand-css.html
-/*  Functionality */
+// SCSS rules for SHORTCODE expand-css.html /section class = accordion with checkbox inside
+/*  Functionality 
+Try to fix transition vertical jump with https://codepen.io/bilal-pf/pen/eYZrPGW */ 
+section.accordion {
+  position: relative; 
+}
 .accordion > input[type="checkbox"] {
   position: absolute;
   left: -100vw;
 }
 .accordion .content {
+  max-height: 0 px;
   overflow-y: hidden;
-  height: 0;
-  transition: height 0.3s ease;
+  transition:max-height 0.5s;
+  -webkit-transition:max-height 0.5s;
 }
 .accordion > input[type="checkbox"]:checked ~ .content {
-  height: auto;
-  overflow: visible;
+  height: 20px;
+  overflow: scroll;
 }
 .accordion label {
   display: block;

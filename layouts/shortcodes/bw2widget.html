@@ -41,7 +41,7 @@
         context["{{.Get `widgetName`}}"]["switch_parameter_data"] = switch_parameter_data;
         context["{{.Get `widgetName`}}"]["algebraic_equation_f"] = algebraic_equation_f;
         //console.log("after init", context);
-        write_widget("figure_{{.Get `widgetName`}}", "parameters_{{.Get `widgetName`}}", 'parameter_data', 'switch_parameter_data', 'algebraic_equation_f', "{{.Get `plotType`}}");
+        write_widget("figure_{{.Get `widgetName`}}", "parameters_{{.Get `widgetName`}}", 'parameter_data', 'switch_parameter_data', 'algebraic_equation_f', "{{.Get `plotType`}}", "{{.Get `ylabel`}}");
     </script>
 </section>
   

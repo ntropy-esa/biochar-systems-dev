@@ -6,7 +6,7 @@ styling:
     containerClass: " "
     rowClass: ""
 
-lastmod: "2021-10-06"
+lastmod: "2021-12-15"
 # in one row, nb of boostrap columns can be defined directly below in HTML
 ---
 
@@ -14,7 +14,7 @@ lastmod: "2021-10-06"
 
 ### **Scientific literature** - a _selection_
 
-Between the early 2000s and 2020, more than 15 000 research articles including the keyword <mark>biochar</mark> were published in academic journals. In 2020, about 4000 articles were published. This corresponds to more than 10 new articles every day. These numbers imply that it is literally impossible - for researchers as well as individuals - to read all the research that exists on biochar.
+Between the early 2000s and 2020, more than 15 000 research articles including the keyword <mark>biochar</mark> were published in academic journals. In 2020, about 4000 articles were published. This corresponds to more than 10 new articles every day. At this rate, it is literally impossible - for researchers as well as individuals - to read all the research that exists on biochar.
 
 Therefore, we suggest below few <mark>major references</mark>, grouped by topics: 
 

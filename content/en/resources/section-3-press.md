@@ -9,9 +9,19 @@ styling:
 
 <div class="col-md-8">
 
-### News apparitions
+### **News apparitions**
 
-* [202x-xx-xx, media] [Title](link)
-* 
+<!-- * 202x-xx-xx, Media, [title](url)  -->
+
+* 202x-xx-xx, Media, [title](url) 
+  
+* 2020-09-15, Dagens Industri, [Ny forskning: De vill rädda klimatet med kol](https://www.di.se/hallbart-naringsliv/ny-forskning-de-vill-radda-klimatet-med-kol/)
+
+* 2019-12-05, NyTeknik, [Forskare: Stor biokolfabrik ger klimatnytta](https://www.nyteknik.se/premium/forskare-stor-biokolfabrik-ger-klimatnytta-6980636)
+
+* 2019-10-02, SverigesRadio, [Kol hett som klimatlösning men hur gör det bäst nytta?](https://sverigesradio.se/avsnitt/1366018)
+
+* 2017-03-21, NyTeknik, [Klimatnyttan med biokolen granskas](https://www.nyteknik.se/energi/klimatnyttan-med-biokolen-granskas-6832218)
+
 
 </div>

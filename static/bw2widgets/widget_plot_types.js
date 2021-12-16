@@ -3,7 +3,7 @@
 
 // responsive SVG : https://medium.com/@louisemoxy/a-simple-way-to-make-d3-js-charts-svgs-responsive-7afb04bc2e4b 
 
-function write_widget(id_figure, id_parameter, param_data, switch_data, algebraic_eq, plot_type){
+function write_widget(id_figure, id_parameter, param_data, switch_data, algebraic_eq, plot_type, ylabel){
 	
 	document.getElementById(id_parameter).innerHTML='';
 	//console.log(param_data);
@@ -26,7 +26,7 @@ function write_widget(id_figure, id_parameter, param_data, switch_data, algebrai
 			plot_waterfall(id_figure, algebraic_values)
 			break;
 		case 'stackedbar':
-			plot_stackedbar(id_figure, algebraic_values)
+			plot_stackedbar(id_figure, ylabel, algebraic_values)
 			break;
 		case 'sankey' :
 			plot_sankey(id_figure, algebraic_values)
@@ -36,7 +36,7 @@ function write_widget(id_figure, id_parameter, param_data, switch_data, algebrai
 	}
 }
 
-function write_sliders(id_figure, id_parameter, param_data, switch_data, algebraic_eq, plot_type){
+function write_sliders(id_figure, id_parameter, param_data, switch_data, algebraic_eq, plot_type, ylabel){
 	var html_txt = '';
 	var widgetName = id_figure.split(/_(.+)/)[1]; // to do, just pass it as argument of the function...
 	console.log(widgetName);
@@ -61,7 +61,7 @@ function write_sliders(id_figure, id_parameter, param_data, switch_data, algebra
 		
 		if(context[widgetName][param_data]['uncertainty type'][i] == 'switch'){
 			var nbOptions = context[widgetName][switch_data][nameID]['options'].length
-			html_txt += ' <select name="select_'+widgetName+'_'+nameID+'" onchange="updateWidget(this.value, this.name, \''+id_figure+'\', algebraic_equation_f, \''+plot_type+'\', \''+switch_data+'\');" >' ;
+			html_txt += ' <select name="select_'+widgetName+'_'+nameID+'" onchange="updateWidget(this.value, this.name, \''+id_figure+'\', algebraic_equation_f, \''+plot_type+'\', \''+switch_data+'\', \''+ylabel+'\');" >' ;
 			for(let j=0; j < nbOptions; j++){
 				html_txt += ' <option value='+j+'>'+context[widgetName][switch_data][nameID]['options'][j]+'</option> ';
 			}
@@ -69,8 +69,8 @@ function write_sliders(id_figure, id_parameter, param_data, switch_data, algebra
 		}else{
 			// html_txt += '  Minimum: '+ context[widgetName][param_data]['minimum'][i]+' ';
 			html_txt += ' <input type="range" name="range_'+widgetName+'_'+nameID+'" min="'+context[widgetName][param_data]['minimum'][i]+'" max="'+context[widgetName][param_data]['maximum'][i]+'" step = "'+(context[widgetName][param_data]['maximum'][i] - context[widgetName][param_data]['minimum'][i])/100+'"  ';
-			html_txt += ' onchange="updateWidget(this.value, this.name, \''+id_figure+'\', algebraic_equation_f, \''+plot_type+'\', \''+switch_data+'\');" >' ;
-			html_txt += ' <input type="text" id="txt_'+widgetName+'_'+nameID+'" value="'+context[widgetName][param_data]['amount'][i]+'" maxlength="4" size="4" onchange="updateWidget(this.value, this.id, \''+id_figure+'\', algebraic_equation_f, \''+plot_type+'\', \''+switch_data+'\');" >' ;			
+			html_txt += ' onchange="updateWidget(this.value, this.name, \''+id_figure+'\', algebraic_equation_f, \''+plot_type+'\', \''+switch_data+'\' , \''+ylabel+'\');" >' ;
+			html_txt += ' <input type="text" id="txt_'+widgetName+'_'+nameID+'" value="'+context[widgetName][param_data]['amount'][i]+'" maxlength="4" size="4" onchange="updateWidget(this.value, this.id, \''+id_figure+'\', algebraic_equation_f, \''+plot_type+'\', \''+switch_data+'\', \''+ylabel+'\');" >' ;			
 			html_txt += ' in: <i>' + unit+'</i>';
 		}
 		html_txt += ' </div> </section>';			
@@ -78,7 +78,7 @@ function write_sliders(id_figure, id_parameter, param_data, switch_data, algebra
 	return html_txt
 }
 
-function updateWidget(val, NameOrId, id_figure, algebraic_eq, plot_type, switch_data){
+function updateWidget(val, NameOrId, id_figure, algebraic_eq, plot_type, switch_data, ylabel){
 	//console.log("triggered");
 	var widgetName = id_figure.split(/(_)/)[2]; // to do, just pass it as argument of the function...
 	//console.log(widgetName);
@@ -114,7 +114,7 @@ function updateWidget(val, NameOrId, id_figure, algebraic_eq, plot_type, switch_
 			plot_waterfall(id_figure, algebraic_values);
 			break;
 		case 'stackedbar':
-			plot_stackedbar(id_figure, algebraic_values)
+			plot_stackedbar(id_figure, ylabel, algebraic_values)
 			break;
 		case 'sankey' :
 			plot_sankey(id_figure, algebraic_values)
@@ -182,7 +182,7 @@ function plot_sankey(id_figure, algebraic_values){
 
 }
 
-function plot_stackedbar(id_figure, algebraic_values){
+function plot_stackedbar(id_figure, ylabel, algebraic_values){
 	// https://www.d3-graph-gallery.com/graph/barplot_stacked_highlight.html
 	// https://www.d3-graph-gallery.com/graph/custom_legend.html 
 
@@ -373,7 +373,14 @@ function plot_stackedbar(id_figure, algebraic_values){
 			  .attr("text-anchor", "left")
 			  .style("alignment-baseline", "middle")
 	  
-
+	// label y-axis
+	svg.append('g').append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left)
+      .attr("x",0 - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text(ylabel);   
 }
 
 function plot_waterfall(id_figure, algebraic_values){

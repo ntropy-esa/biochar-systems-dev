@@ -22,7 +22,10 @@ To explore the topic further, we recommend the following references:
 - pyrolysis data from asia (related to flame curtain)
 - pyrolysis data from kon tiki flame curtain schimdt and co
 - pyrolysis data from pyreg erlend sormo
-
+- Meyer review of technology
+- Weber & Quicker
+- Ippolito
+- Thermochemical pathways 
 - NBN Map link 
 
 * [link]

@@ -8,42 +8,65 @@ styling:
 
 gallery_item:
   - album: "gallery-pyrolysis"
-    image: "1_woodpellet.png"
-    caption: "Wood pellet 
-              <br /> - rather dry, usually below 10%
-              <br /> - often a side product from timber production
-              <br /> - alternatively, often combusted for heating purposes
+    image: "1_flamecurtain.png"
+    caption: "Flame-curtain technique
+              <br /> &copy; IBI
+              <br /> - low-tech way of producing biochar, 
+              <br /> - low equipment requirement, but knowledge, time and skill needed
+              <br /> - higher emissions than with other equipment
+              <br /> - little options to recover useful energy
               "
   - album: "gallery-pyrolysis"
-    image: "2_gardenwaste.jpg"
-    caption: "Garden waste              
-              <br /> - varying moisture, usually around 50%
-              <br /> - material of heterogenous quality, with possible impurities
-              <br /> - alternatively, often combusted in waste facilities with energy recovery
-              "
-
-  - album: "gallery-pyrolysis"
-    image: "3_loggingresidues.png"
-    caption: "Logging residues
-              <br /> - varying moisture, usually around 50%, with potential partial drying in the forest
-              <br /> - often a side product from forestry operations, not harvested or partially harvested
-              <br /> - when left in the forest, residues contributes to forest carbon stocks & biodiversity
+    image: "2_gasifiercookstove.png"
+    caption: "Gasifier cookstove Top-lit updraft (TLUD)
+              <br /> &copy; Cecilia Sundberg              
+              <br /> - little equipment requirement,
+              <br /> - improved combustion relative to open fire
+              <br /> - energy recovery for cooking
               "
 
   - album: "gallery-pyrolysis"
-    image: "4_willowchips.jpg"
-    caption: "Willow woodchips
-              <br /> - varying moisture, usually around 50%
-              <br /> - often produced on set aside agricultural land
-              <br /> - part of short rotation coppice systems
+    image: "3_biomacon.png"
+    caption: "BioMaCon reactor
+              <br /> &copy; Carl Lindeborg  
+              <br /> - high-tech equipment, reaction sustained by pyrolysis gas combustion
+              <br /> - pyrolysis gases and oil combusted for heat production
+              <br /> 
               "
 
   - album: "gallery-pyrolysis"
-    image: "5_sludge.png"
-    caption: "Sewage sludge
-              <br /> - varying moisture, usually high moisture content which requires drying before pyrolysis
-              <br /> - often seen as a problem, due to potentially high contents of heavy metals, but also an important source of nutrients
-              <br /> - alternative uses includes application to agricultural land, incineration, or landfilling
+    image: "4_biogreen.png"
+    caption: "BioGreen reactor
+              <br /> &copy; ETIA 
+              <br /> - high-tech equipment, reaction sustained by electricity input
+              <br /> - fixed containerised unit, continuous reactor
+              <br />
+              "
+
+  - album: "gallery-pyrolysis"
+    image: "5_batch.png"
+    caption: "40 ft Mobile Pyrolysis Plant (MMP40) Earth Systems
+              <br /> &copy; Earth Systems 
+              <br /> - high-tech equipment, reaction sustained by pyrolysis gas combustion
+              <br /> - mobile containerised unit, batch reactor
+              <br />  
+              "
+  - album: "gallery-pyrolysis"
+    image: "6_pyreg.jpg"
+    caption: "Pyreg500 
+              <br /> &copy; Stockholm Vatten och Avfall
+              <br /> - high-tech equipment, reaction sustained by pyrolysis gas combustion
+              <br /> - fixed containerised unit, continuous reactor
+              <br />
+              "
+
+  - album: "gallery-pyrolysis"
+    image: "7_fpp40.jpg"
+    caption: "40 ft Fixed Pyrolysis Plant (FPP40) Earth Systems
+              <br /> &copy; Earth Systems 
+              <br /> - high-tech equipment, reaction sustained by pyrolysis gas combustion
+              <br /> - fixed containerised unit, batch reactor
+              <br /> 
               "
 ---
 
@@ -53,45 +76,59 @@ gallery_item:
 
 The environmental impact from operating a pyrolysis plant can be decomposed in the following terms:
 
-- Manufacturing and disposal of the pyrolysis reactor and surrounding equipment (including dryer, post combustion, flue glas cleaning, concrete slab, and maintenance operations)
-- The supply and use of industrial products needed for operation of the pyrolysis reactor (electricity, water for quenching, reaction additives, or other consumables)
-- Management of side-stream, mostly waste such as ash/fly ash collected in cyclone, and waste water sent to water treatment
-- Direct environmental emissions, like dustfrom the stack from the stack/flue gases, but also...)
-- Other operations for handling of the pyrolysis products
-- Other operations for handling of biomass on site, and feeding
+- Manufacturing and disposal of the pyrolysis reactor and surrounding equipment (e.g. dryer, silos, feeder, combustion, flue glas cleaning, concrete slab, as well as maintenance operations)
   
-These terms rarely extensively modelled... not all contribute or have same relevance for different {{< tooltip_glossary text="environmental impact categories" term_id="" tooltip_text="Environmental impact categories are areas of human concern. Examples are climate change, air pollution, water eutrophication, ozone layer depletion. They are caused by different kind of stressors released by human activities in the environment. Some pollutants can be relevant for one impact category but not for another." >}}
+- The supply and use of industrial products needed for operation of the pyrolysis reactor (e.g. electricity, quenching water, reaction additives, or other consumables)
+  
+- Management of side-stream, mostly waste such as ash and fly ash collected in flue gas cleaning system, or wastewater sent to treatment
+  
+- Other fuel and equipment use for handling of the biomass on site (e.g. wheel-loaders)
+  
+- Other fuel and equipment use for handling of the pyrolysis products (biochar, and pyrolysis gas and oil if stored rather than directly combusted)
 
-Overall - impact contributions is small in life cycle perspective for high-tech well-used reactors, but can be significant for low-tech reactors due to high emissions (GHG balance). 
+- Direct environmental emissions from the operations, like dust from handling of biochar or air pollutant emissions from the stack of the pyrolysis reactor
 
-### **The type of reactor matters: from low-tech to high-tech**
+In the LCA of pyrolysis processes, these terms can be very different and have varying importance for different  {{< tooltip_glossary text="environmental impact categories" term_id="" tooltip_text="Environmental impact categories are areas of human concern. Examples are climate change, air pollution, water eutrophication, ozone layer depletion. They are caused by different kind of stressors released by human activities in the environment. Some pollutants can be relevant for one impact category but not for another." >}}. The importance of the terms are also affected by the context:
 
-some images ... low-tech
+- Reactor type: the type of reactor (low-tech or high-tech, electricity-heated or syngas-heated pyrolysis) affects for instance the direct environmental emissions and the amount of inputs needed to operate the reactor. 
 
+- Context dependence: an electricity-heated reactor supplied with electricity from coal will not have the same environmental performance than one supplied with hydropower. 
 
-### **Parametrized life cycle inventory datasets for 3 kind of pyrolysis reactors**
-
-Description of the data set..
-
-Scale to 1 kg of biochar produced... contains... bi
-
-Contains environmental emissions from 2 reactors (low-tech & high-tech)
-
-Need to be linked upstream with: technosphere activities for biomass, electricity, use (from a background database)
-
-How to use it
-
-Limitations of current LCI data... 
-
-{{< button href="../biochar-stability-calculator.xlsx" icon="download" >}} Download dataset as Excel file {{< /button >}}
-
+- Environmental impact categories: a low-tech reactor may have higher direct emissions, which are relevant for human health impacts but also climate change. A high-tech reactor running on nuclear energy may have a low climate change impact, but a high impact in ionising radiations. 
 
 </div>
 
 <div class="col-md-5 text-right">
 
 ### **A gallery of pyrolysis reactors**
+*Click on the pictures for details*
+{{< gallery album="gallery-pyrolysis" order="asc" resize_options="x125 webp" classDiv= "text-right" >}}
 
-{{< gallery album="gallery-pyrolysis" order="asc" resize_options="150x150 webp" classDiv= "text-right" >}}
+</div>
+
+
+<div class="col-md-7">
+
+### **Data for direct environmental emissions**
+
+Data on direct environmental emissions from pyrolysis reactor is rather scarce. However, we compiled data from 3 sources for different pyrolysis reactors. 
+
+The inventory data is scaled for 1 kg of biochar produced. It can be used in LCA, however, it should be noted that (i) the scope of environmental stressors considered is different in the three datasets, and that (ii) the measurements were performed for different biomass feedstocks, which has a influence on the kind of emissions. 
+
+Further descriptions & references are provided in the dataset:
+
+{{< button href="2-pyrolysis-biosphere-emissions.xlsx" icon="download" >}} Download dataset as Excel file {{< /button >}}
+
+</div>
+
+<div class="col-md-4 col-md-push-1">
+
+### **Data for technosphere inputs**
+
+Data on manufacturing, disporal, and operation requirements of pyrolysis reactor is rather scarce as well. Through modelling, we compiled some inventory data for different reactors. 
+
+Further descriptions & references are provided in the dataset:
+
+{{< button href="2-pyrolysis-technosphere-inputs.xlsx" icon="download" >}} Download dataset as Excel file {{< /button >}}
 
 </div>

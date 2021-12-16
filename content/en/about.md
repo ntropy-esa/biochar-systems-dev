@@ -1,6 +1,6 @@
 ---
 title: "About our research group"
-description: "this is meta description"
+description: ""
 bg_image: "images/feature-bg.jpg"
 layout: "about"
 draft: false
@@ -27,7 +27,7 @@ about:
   dolor sit amet, consectetur adipisicing elit. Provident, neque!"
 
   button:
-    enable : true
+    enable : false
     label : "Download Company Profile"
     link : "#"
 
@@ -64,7 +64,7 @@ about:
 
 ################################ feature #####################################
 features:
-  enable : true
+  enable : false
   title : "We are indepented Design & Development Agency"
   feature_item:
   # feature item loop
@@ -100,7 +100,7 @@ features:
 
 #################################### testimonial & mission vision #######################################
 testimonial:
-  enable : true
+  enable : false
   # testimonial content comes from "data/*/homepage.yml" file
 
 mission_vision:
