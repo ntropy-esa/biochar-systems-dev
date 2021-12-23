@@ -44,7 +44,8 @@ In addition, the pressure and the composition of the atmosphere in the reactor a
 <div class="col-md-8 col-md-push-1">
 
 {{% notice tip %}}
-  Reading more about thermochemical conversion pathways of biomass: <br />  
+  Reading more about thermochemical conversion pathways of biomass:<br />
+  - Weber, K.; Quicker, P. Properties of Biochar. Fuel 2018, 217, 240–261. https://doi.org/10.1016/j.fuel.2017.12.054.
 
 {{% /notice %}}
 

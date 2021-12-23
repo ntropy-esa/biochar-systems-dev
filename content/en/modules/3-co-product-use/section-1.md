@@ -43,7 +43,7 @@ Today, an example of biochar production coupled with biofuel production...
 
 ### **Biochemical & biomaterial**
 
-Similar to liquid biofuel production, pyrolysis can be condensed and upgraded for use as chemical or material. 
+Similar to liquid biofuel production, pyrolysis oil can be condensed and upgraded for use as chemical or material. 
 
 Examples of such pathways are rare today.
 - Do we have any example?

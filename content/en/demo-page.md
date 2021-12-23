@@ -73,9 +73,9 @@ Can take the values: warning, note, info, tip
 
 
 ## Insert a sankey 
-Random markdown text before the widget
 
-{{< bw2widget widgetName="X4" widgetJS="bw2widgets/widget_sankeyEnergy" widgetTitle="Energy flow for 1 tonne of wet biomass during pyrolysis" plotType="sankey">}} 
+  **Sankey diagram**
+  {{< bw2widget widgetName="X5" widgetJS="bw2widgets/widget_sankey-model1-energy" widgetTitle="Scaled to 1 tonne of biochar" plotType="sankey" >}} 
 
 Export as svg/png button. 
 Random markdown text after the widget
