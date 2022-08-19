@@ -1,11 +1,11 @@
 ---
-title: "Spatial and multi-criteria recommomendation for biochar use on arable land in Sweden"
+title: "Spatial and multi-criteria recommomendation for biochar application to arable land in Sweden"
 description: "
 *What was our motivation?*
 
 " # a text describing the motivations, the context, the research questions, attratively
 draft: false
-image : "case-studies/5-gis-sweden-art.png"
+image : "case-studies/Biochar_Prioritization_ICR.png"
 weight : 6
 bg_image: "images/feature-bg.jpg"
 menu:
